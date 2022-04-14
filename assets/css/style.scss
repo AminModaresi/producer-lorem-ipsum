@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vazirmatn', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #f4f1de;
+    text-align: right;
+    direction: rtl;
+}
+
+.container {
+    width: 450px;
+    margin: 4rem auto;
+}
+
+.cart {
+    padding: 1rem;
+    background-color: #e07a5f;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+}
+
+.selected-model {
+    border: none;
+    background-color: #81b29a;
+    border: 1px solid #f2cc8f;
+    color: #f4f1de;
+    padding: .3rem 1rem;
+}
+
+.input-number {
+    border: none;
+    background-color: #81b29a;
+    border: 1px solid #f2cc8f;
+    color: #f4f1de;
+    padding: 0 .5rem;
+}
+
+.btn {
+    padding: .3rem 1rem;
+}
+
+.btn-green{
+    background-color: #81b29a;
+    border: 1px solid #f2cc8f;
+    color: #f4f1de;
+}
+
+.btn-green:active{
+    background-color: #81b29acd;
+}
+
+.textarea-lorem{
+    width: 100%;
+    resize: none;
+    background-color: #81b29a;
+    border: 1px solid #f2cc8f;
+    color: #f4f1de;
+    font-size: 1rem;
+    margin-bottom: .7rem;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.w-100{
+    width: 100%;
+}
